@@ -827,6 +827,7 @@ function startApp() {
 }
 
 function launch() {
+  document.getElementById('onboarding').style.display = 'none';
   document.getElementById('app').style.display = 'block';
   document.getElementById('greeting').textContent = 'Olá, ' + userName + ' 👋';
   render();
